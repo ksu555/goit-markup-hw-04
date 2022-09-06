@@ -110,14 +110,6 @@ color: var(--accent-text-color);
 }
 .main-title{
     background-color: var(--button-color);
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        
-}
-.main-subtitle{
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
