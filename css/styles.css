@@ -199,5 +199,5 @@ color: var(--accent-text-color);
     color: var(--main-title-color);
 }
 a {
-    text-decoration: none
+    text-decoration: none;
 }
