@@ -9,13 +9,14 @@
     --button-color: #F5F4FA;
 }
 body{
-    background-color: var(--main-title-color)
+    background-color: var(--main-title-color);
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
 }
 ul {
     list-style: none;
 }
+
 .auto{
     cursor: pointer;
 }
@@ -46,6 +47,7 @@ ul {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+       
 }
 .header:hover,
 .header:focus {
@@ -63,7 +65,7 @@ color: var(--accent-text-color);
     color: var(--accent-text-color);
 }
 .contact{
-    color: var(--accent-text-color)
+    color: var(--subtitle-text-color);
     font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -129,6 +131,7 @@ color: var(--accent-text-color);
 }
 .footer-logo{
     color: var(--main-title-color);
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -149,16 +152,22 @@ color: var(--accent-text-color);
         line-height: 1.71;
         letter-spacing: 0.03em;
         text-decoration: none;
+        font-style: normal;
 }
 .footer-address:focus,.footer-address:hover,.footer-contact:hover,.footer-contact:focus{
     color: var(--accent-text-color);
 }
 .visually-hidden {
     position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
     clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
     margin: -1px;
+
 }
 .liste-btn{
     background-color: var(--button-color);
@@ -188,4 +197,7 @@ color: var(--accent-text-color);
 .liste-btn:focus{
     background-color: var(--accent-text-color);
     color: var(--main-title-color);
+}
+a {
+    text-decoration: none
 }
