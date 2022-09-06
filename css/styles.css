@@ -115,6 +115,7 @@ color: var(--accent-text-color);
     letter-spacing: 0.03em;
 }
 .main-desc{
+    background-color: var(--button-color);
     color: var(--subtitle-text-color);
         font-size: 16px;
         line-height: 1.18;
