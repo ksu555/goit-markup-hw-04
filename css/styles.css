@@ -47,6 +47,7 @@ ul {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        text-decoration: none;
        
 }
 .header:hover,
@@ -183,21 +184,21 @@ color: var(--accent-text-color);
         font-size: 18px;
         line-height: 2.11;
         letter-spacing: 0.06em;
-        text-decoration: none;
+        
 }
 .project-copy{
     color: var(--subtitle-text-color);
         font-size: 16px;
         line-height: 1.81;
         letter-spacing: 0.03em;
-        text-decoration: none;
+        
 }
-
+.project-liste .project-subtitle,
+.project-liste .project-copy{
+text-decoration: none;
+}
 .liste-btn:hover,
 .liste-btn:focus{
     background-color: var(--accent-text-color);
     color: var(--main-title-color);
-}
-a {
-    text-decoration: none;
 }
