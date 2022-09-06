@@ -88,7 +88,7 @@ color: var(--accent-text-color);
     color: var(--main-title-color);
     font-weight: 700;
         font-size: 16px;
-        line-height: 1.81;
+        line-height: 1.87;
         letter-spacing: 0.06em;
         font-family: inherit;
 }
@@ -109,11 +109,12 @@ color: var(--accent-text-color);
         letter-spacing: 0.03em;
 }
 .main-title{
+    background-color: var(--button-color);
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
-        text-align: center;
         letter-spacing: 0.03em;
+        
 }
 .main-subtitle{
     font-weight: 500;
@@ -174,7 +175,7 @@ color: var(--accent-text-color);
     background-color: var(--button-color);
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.61;
+        line-height: 1.63;
         letter-spacing: 0.03em;
         font-family: inherit;
 }
@@ -182,23 +183,22 @@ color: var(--accent-text-color);
     color: var(--title-text-color);
     font-weight: 700;
         font-size: 18px;
-        line-height: 2.11;
+        line-height: 2;
         letter-spacing: 0.06em;
         
 }
 .project-copy{
     color: var(--subtitle-text-color);
         font-size: 16px;
-        line-height: 1.81;
+        line-height: 1.87;
         letter-spacing: 0.03em;
         
-}
-.project-liste .project-subtitle,
-.project-liste .project-copy{
-text-decoration: none;
 }
 .liste-btn:hover,
 .liste-btn:focus{
     background-color: var(--accent-text-color);
     color: var(--main-title-color);
+}
+a {
+    text-decoration: none;
 }
