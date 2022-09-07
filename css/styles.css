@@ -108,18 +108,28 @@ color: var(--accent-text-color);
         line-height: 1.71;
         letter-spacing: 0.03em;
 }
+.team-items{
+background-color: var(--button-color);
+}
 .main-title{
-    background-color: var(--button-color);
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.main-subtitle{
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 .main-desc{
-    background-color: var(--button-color);
     color: var(--subtitle-text-color);
-        font-size: 16px;
-        line-height: 1.18;
-        letter-spacing: 0.03em;
+            font-size: 16px;
+            line-height: 1.19px;
+            letter-spacing: 0.03em;
 }
 .footer{
     background-color: var(--background-color-black);
