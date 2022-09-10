@@ -8,35 +8,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>WebStudio</title>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo"><span class="blue">Web</span>Studio</a>
+    <header class="top-container container">
+        <a href="./index.html" class="logo"><span class="blue">Web</span>Studio</a>
         <nav>
             <ul class="header">
-                <li> <a href="#" class="header current">Студія</a></li>
+                <li> <a href="./index.html" class="header current">Студія</a></li>
                 <li> <a href="./portfolio.html" class="header">Портфоліо</a></li>
                 <li> <a href="#" class="header">Контакти</a></li>
             </ul>
             
         </nav>
-        <ul>
+        <ul class="info">
             <li> <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
             <li> <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <!--Hero-->
+        <div class="container-hero container">
 <section class="hero">
-    <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
+    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
     <button type="button" class="btn auto">Замовити послугу</button>
 </section>
+</div>
         <!--Advantages-->
 <section>
             <h2 class="visually-hidden"> Переваги </h2>
-    <ul class="list">
+    <ul class="list container">
         <li><h3 class="list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="list-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
         <li><h3 class="list-title">ПУНКТУАЛЬНІСТЬ</h3>
@@ -48,18 +51,18 @@
     </ul>
 </section>
         <!--What we do?-->
-<section>
+<section class="container-do container">
     <h2 class="main-title">Чим ми займаємося</h2>
-    <ul>
+    <ul class="img-list">
         <li><img src="./images/box1.jpg" alt="Programming" width="370" height="294" class="img"></li>
         <li><img src="./images/box2.jpg" alt="Testing" width="370" height="294" class="img"></li>
         <li><img src="./images/box3.jpg" alt="Design" width="370" height="294" class="img"></li>
     </ul>
 </section>
         <!--Our team-->
-<section class="team-items"> 
-    <h2 class="main-title">Наша команда</h2>
-    <ul>
+<section class="team-items container"> 
+    <h2 class="main-title-team">Наша команда</h2>
+    <ul class="container-team">
         <li> <img src="./images/teamcard1.jpg" alt="Product Designer" width="270" height="260" class="icon">
             <h3 class="main-subtitle">Ігор Дем'яненко</h3> 
             <p class="main-desc">Product Designer</p>
@@ -79,10 +82,10 @@
     </ul>
 </section>
     </main>
-    <footer class="footer">
-        <a href="#" class="footer-logo"><span class="blue">Web</span>Studio</a>
+    <footer class="footer container">
+        <a href="/index.html" class="footer-logo"><span class="blue">Web</span>Studio</a>
         <address>
-        <ul>
+        <ul class="container-footer">
             <li><a href="https://goo.gl/maps/627c23BeB8VWocJj6" target="_blank" rel="nofollow noopener noreferrer" class="footer-address">м. Київ, пр-т Лесі Українки, 26</a></li>
             <li> <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
             <li> <a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a></li>
