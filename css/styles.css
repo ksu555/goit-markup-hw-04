@@ -156,11 +156,12 @@ color: var(--accent-text-color);
     margin-right: 50px;
 }
 .hero{
+background: #C4C4C4;
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
 background-repeat: no-repeat;
-background-size: 1600px 600px;
+background-size: cover;
 background-position: center;
-
+max-width: 1600px;
 
 padding-bottom: 200px;
 padding-top: 200px;
@@ -194,6 +195,7 @@ text-align: center;
 
 
     background-color: var(--accent-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--main-title-color);
     font-weight: 700;
     font-size: 16px;
@@ -207,6 +209,7 @@ text-align: center;
 .hero .btn:focus,
 .hero .btn:hover{
     background-color: var(--activ-button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .list-section{
@@ -347,12 +350,9 @@ text-align: center;
     padding-top: 94px;
 }
 .clients-item-styles{
-    
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    padding: 16px 32px;
-   
-    
+    max-width: 170px;
 }
 .clients-item-styles:hover,
 .clients-item-styles:focus{
@@ -529,7 +529,6 @@ padding-bottom: 94px;
 }
 .project-shadow:hover,
 .project-shadow:focus{
-    border: 1px solid var(--border-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-liste{
